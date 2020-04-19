@@ -5,14 +5,14 @@ int isMuenchhausenNumber(int number);
 
 int main() {
 
-    int input;
+    int input; // var
     printf("Bitte eine Zahl eingeben: ");
     scanf("%d", &input);
 
     int result = isMuenchhausenNumber(input);
     printf("Die Zahl %d ist %seine Muenchhausen-Zahl", input, (result ? "" : "k"));
 
-    return 0;
+    return 0; 
 }
 
 int isMuenchhausenNumber(int numberToTest) {
