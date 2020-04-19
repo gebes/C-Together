@@ -22,16 +22,8 @@ int main()
 	
 	printf("Maximum = %d\n", max);
 	printf("Minimum = %d\n", min);
-	
-	if(speicher == 1) 
-	{
-		printf("Messwerte sind sortiert !");
-	}
-	
-	else 
-	{
-		printf("Messwerte sind nicht sortiert !");
-	}
-	
+
+	printf("Messerte sind %ssortier", (speicher) ? "" : "nicht " );
+
 	return 0;
 }
