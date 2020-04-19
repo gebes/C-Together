@@ -16,7 +16,7 @@ int main() {
 }
 
 int isMuenchhausenNumber(int numberToTest) {
-    unsigned int sum = 0;
+    int sum = 0;
 
     int digits = numberToTest;
 
