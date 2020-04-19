@@ -5,7 +5,7 @@ int isMuenchhausenNumber(int number);
 
 int main() {
 
-    int input; // var
+    int input; 
     printf("Bitte eine Zahl eingeben: ");
     scanf("%d", &input);
 
