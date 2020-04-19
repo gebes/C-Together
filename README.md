@@ -2,9 +2,16 @@
  Hier lösen wir alle C Beispiele gemeinsam, damit nicht alle diese einzeln erledigen müssen.
 
 ## Regeln
-* **Wenn du Beispiele von hier kopierst, dann trage auch etwas bei!** 
-    Füge mehr Beispiele hinzu, räume den Code auf, mach einfach was hilfreiches!
-* Wenn du die Beispiele nicht verstehst, dann versuche es doch diese vorerst selber zu lösen, für den Lernfaktor
+
+### Es sind nur Source und Header Files erlaubt!
+Sorge dafür das du nur .c und .h Dateien hier hochlädst. **Alles andere in die .gitignore**
+
+### Kopiere Beispiele auf deine eigene Verantwortung!
+Wenn du nichts davon lernst, ist es uns egal
+
+### Wenn du schon Beispiele von hier kopierst, dann trage auch etwas bei!
+Wir wollen dir nicht die Arbeit abnehmen, wir wollen die Arbeit aufteilen
+
 
 ## What do we learn from this?
 Work cleverer, not harder!
