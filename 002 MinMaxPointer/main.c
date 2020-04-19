@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../Funktionen/alleFunktionen.h"
+#include "alleFunktionen.h"
 
 int main()
 {
@@ -23,7 +23,7 @@ int main()
 	printf("Maximum = %d\n", max);
 	printf("Minimum = %d\n", min);
 
-	printf("Messerte sind %ssortier", (speicher) ? "" : "nicht " );
+	printf("Messerte sind %ssortiert", (speicher) ? "" : "nicht " );
 
 	return 0;
 }
