@@ -75,6 +75,7 @@ void biggerandsmallerthanIQ(int data[], int size, float average, int * medsmalle
 }
 
 void mostCommonIQ(int data[], int size, int * most, int * counter, int * zahl, int max) {
+
   int commonMap[max+1];
 
   for(int i = 0; i < max+1; i++){
