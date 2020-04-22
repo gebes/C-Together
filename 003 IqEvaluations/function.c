@@ -1,5 +1,9 @@
 // Exa03_IQ_Evaluatios ================================================================================================================================================================================
 
+#include<stdbool.h>
+#include<stdio.h>
+#include"function.h"
+
 void outputExa03(int data[], int size, int min, int max, float average,int most,int counter, int zahl, int medsmaller,int medbigger, int median)
 {
   printf("Liste der IQs: \n\n");
@@ -39,7 +43,7 @@ void outputExa03(int data[], int size, int min, int max, float average,int most,
   printf("\nMedian: %d", median); 
 }
 
-float averageExa03(int data[], int size, float *average)
+void averageExa03(int data[], int size, float *average)
 {
   int sum = 0;
   

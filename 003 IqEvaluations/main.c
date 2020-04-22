@@ -15,7 +15,7 @@ int main()
   
   // INITIALISIERUNG
   averageExa03(iQFld,size,&average);
-  minmax(iQFld,size,&max,&min);
+  //minmax(iQFld,size,&max,&min);
   biggerandsmallerthanIQ(iQFld,size,average,&medsmaller,&medbigger);
   mostCommonIQ(iQFld,size,&most,&counter,&zahl);
   medianFunction(iQFld,size,&median);
@@ -25,4 +25,3 @@ int main()
   
   return 0;
 }
-	
