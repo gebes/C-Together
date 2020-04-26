@@ -19,5 +19,6 @@ int main() {
     printf("Sortierte Liste: \n");
     sort(&values);
     print(values);
+    printf("Median: %d\n", median(values));
 }
 

@@ -60,15 +60,15 @@ void mostCommonIq(struct iqValues values, int *commonIq, int *count) {
     // index = key
     // map[index] = value
     int map_size = maxValue(values) + 1;
-    int * map = malloc(map_size * sizeof(int));
+    int *map = malloc(map_size * sizeof(int));
 
     for (int i = 0; i < map_size; i++)
         map[i] = 0;
 
     int highestKey = 0, highestValue = 0;
-    for (int i = 0; i < values.length; i++){
+    for (int i = 0; i < values.length; i++) {
         map[values.arr[i]]++;
-        if(map[values.arr[i]] > highestValue){
+        if (map[values.arr[i]] > highestValue) {
             highestKey = values.arr[i];
             highestValue = map[values.arr[i]];
         }
@@ -79,10 +79,17 @@ void mostCommonIq(struct iqValues values, int *commonIq, int *count) {
 
 }
 
-int cmpfunc (const void * a, const void * b) {
-    return ( *(int*)a - *(int*)b );
+int cmpfunc(const void *a, const void *b) {
+    return (*(int *) a - *(int *) b);
 }
 
-void sort(struct iqValues * values){
+void sort(struct iqValues *values) {
     qsort(values->arr, values->length, sizeof(int), cmpfunc);
+}
+
+int median(struct iqValues values) {
+    return (values.length % 2 == 0) ?
+           (values.arr[(values.length - 1) / 2] + values.arr[values.length / 2]) / 2.0
+                                    :
+           values.arr[values.length / 2];
 }

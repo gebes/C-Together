@@ -16,6 +16,8 @@ int countAbove(struct iqValues values, int valueToCheck);
 
 int countBelow(struct iqValues values, int valueToCheck);
 
-void mostCommonIq(struct iqValues values, int * commonIq, int * count);
+void mostCommonIq(struct iqValues values, int *commonIq, int *count);
 
-void sort(struct iqValues * values);
+void sort(struct iqValues *values);
+
+int median(struct iqValues values);
