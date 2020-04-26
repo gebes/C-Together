@@ -4,6 +4,7 @@
 
 
 void print(struct iqValues values) {
+    printf("   ");
     for (int i = 0; i < values.length; i++) {
         printf("%d", values.arr[i]);
         if (i < values.length - 1)
