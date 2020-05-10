@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/004 Befuellen/functions.c
+stdio.h
+-
+
+/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/004 Befuellen/functions.h
+
+/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/004 Befuellen/main.c
+stdio.h
+-
+stdlib.h
+-
+functions.h
+/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/004 Befuellen/functions.h
+
