@@ -29,7 +29,7 @@ void write_array(char *prefix, const int *array, const int length) {
     printf("\n");
 }
 
-void modify_and_write(char * prefix, const void (^arrayModifier)(int *arrayToModify, int length), int *array, int length){
+void modify_and_write(char *prefix, const void (^arrayModifier)(int *arrayToModify, int length), int *array, int length) {
     modify_array(array, length, arrayModifier);
     write_array(prefix, array, length);
 }

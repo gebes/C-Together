@@ -12,8 +12,7 @@ void modify_array(int *array, int length, const void (^arrayModifier)(int *array
 
 void write_array(char *prefix, const int *array, int length);
 
-void modify_and_write(char * prefix, const void (^arrayModifier)(int *arrayToModify, int length), int *array, int length);
-
+void modify_and_write(char *prefix, const void (^arrayModifier)(int *arrayToModify, int length), int *array, int length);
 
 
 #endif //INC_004_BEFUELLEN_FUNCTIONS_H
