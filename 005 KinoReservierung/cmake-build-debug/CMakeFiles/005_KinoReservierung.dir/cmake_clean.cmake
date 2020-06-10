@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "005_KinoReservierung"
   "005_KinoReservierung.pdb"
+  "CMakeFiles/005_KinoReservierung.dir/configuration.cpp.o"
   "CMakeFiles/005_KinoReservierung.dir/main.cpp.o"
 )
 

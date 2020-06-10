@@ -123,6 +123,33 @@ depend:
 	$(MAKE) -f CMakeFiles/005_KinoReservierung.dir/build.make CMakeFiles/005_KinoReservierung.dir/build
 .PHONY : 005_KinoReservierung/fast
 
+configuration.o: configuration.cpp.o
+
+.PHONY : configuration.o
+
+# target to build an object file
+configuration.cpp.o:
+	$(MAKE) -f CMakeFiles/005_KinoReservierung.dir/build.make CMakeFiles/005_KinoReservierung.dir/configuration.cpp.o
+.PHONY : configuration.cpp.o
+
+configuration.i: configuration.cpp.i
+
+.PHONY : configuration.i
+
+# target to preprocess a source file
+configuration.cpp.i:
+	$(MAKE) -f CMakeFiles/005_KinoReservierung.dir/build.make CMakeFiles/005_KinoReservierung.dir/configuration.cpp.i
+.PHONY : configuration.cpp.i
+
+configuration.s: configuration.cpp.s
+
+.PHONY : configuration.s
+
+# target to generate assembly for a file
+configuration.cpp.s:
+	$(MAKE) -f CMakeFiles/005_KinoReservierung.dir/build.make CMakeFiles/005_KinoReservierung.dir/configuration.cpp.s
+.PHONY : configuration.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 005_KinoReservierung"
+	@echo "... configuration.o"
+	@echo "... configuration.i"
+	@echo "... configuration.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
