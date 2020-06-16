@@ -57,45 +57,30 @@ include CMakeFiles/005_KinoReservierung.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/005_KinoReservierung.dir/flags.make
 
-CMakeFiles/005_KinoReservierung.dir/main.cpp.o: CMakeFiles/005_KinoReservierung.dir/flags.make
-CMakeFiles/005_KinoReservierung.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/005_KinoReservierung.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/005_KinoReservierung.dir/main.cpp.o -c "/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/main.cpp"
+CMakeFiles/005_KinoReservierung.dir/main.c.o: CMakeFiles/005_KinoReservierung.dir/flags.make
+CMakeFiles/005_KinoReservierung.dir/main.c.o: ../main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/005_KinoReservierung.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/005_KinoReservierung.dir/main.c.o   -c "/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/main.c"
 
-CMakeFiles/005_KinoReservierung.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/005_KinoReservierung.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/main.cpp" > CMakeFiles/005_KinoReservierung.dir/main.cpp.i
+CMakeFiles/005_KinoReservierung.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/005_KinoReservierung.dir/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/main.c" > CMakeFiles/005_KinoReservierung.dir/main.c.i
 
-CMakeFiles/005_KinoReservierung.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/005_KinoReservierung.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/main.cpp" -o CMakeFiles/005_KinoReservierung.dir/main.cpp.s
-
-CMakeFiles/005_KinoReservierung.dir/configuration.cpp.o: CMakeFiles/005_KinoReservierung.dir/flags.make
-CMakeFiles/005_KinoReservierung.dir/configuration.cpp.o: ../configuration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/005_KinoReservierung.dir/configuration.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/005_KinoReservierung.dir/configuration.cpp.o -c "/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/configuration.cpp"
-
-CMakeFiles/005_KinoReservierung.dir/configuration.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/005_KinoReservierung.dir/configuration.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/configuration.cpp" > CMakeFiles/005_KinoReservierung.dir/configuration.cpp.i
-
-CMakeFiles/005_KinoReservierung.dir/configuration.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/005_KinoReservierung.dir/configuration.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/configuration.cpp" -o CMakeFiles/005_KinoReservierung.dir/configuration.cpp.s
+CMakeFiles/005_KinoReservierung.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/005_KinoReservierung.dir/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/main.c" -o CMakeFiles/005_KinoReservierung.dir/main.c.s
 
 # Object files for target 005_KinoReservierung
 005_KinoReservierung_OBJECTS = \
-"CMakeFiles/005_KinoReservierung.dir/main.cpp.o" \
-"CMakeFiles/005_KinoReservierung.dir/configuration.cpp.o"
+"CMakeFiles/005_KinoReservierung.dir/main.c.o"
 
 # External object files for target 005_KinoReservierung
 005_KinoReservierung_EXTERNAL_OBJECTS =
 
-005_KinoReservierung: CMakeFiles/005_KinoReservierung.dir/main.cpp.o
-005_KinoReservierung: CMakeFiles/005_KinoReservierung.dir/configuration.cpp.o
+005_KinoReservierung: CMakeFiles/005_KinoReservierung.dir/main.c.o
 005_KinoReservierung: CMakeFiles/005_KinoReservierung.dir/build.make
 005_KinoReservierung: CMakeFiles/005_KinoReservierung.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 005_KinoReservierung"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 005_KinoReservierung"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/005_KinoReservierung.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

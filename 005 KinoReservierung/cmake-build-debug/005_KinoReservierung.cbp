@@ -80,13 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/configuration.cpp">
-			<Option target="005_KinoReservierung"/>
-		</Unit>
-		<Unit filename="/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/configuration.h">
-			<Option target="005_KinoReservierung"/>
-		</Unit>
-		<Unit filename="/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/main.cpp">
+		<Unit filename="/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/main.c">
 			<Option target="005_KinoReservierung"/>
 		</Unit>
 		<Unit filename="/Users/christoph/Library/Mobile Documents/com~apple~CloudDocs/Schule/POS1/C-Together/005 KinoReservierung/CMakeLists.txt">
