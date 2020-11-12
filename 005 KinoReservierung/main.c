@@ -32,7 +32,7 @@ int main() {
     printPlaces();
 
     deallocate_mem(&places, arr_data);
-
+    
     return 0;
 }
 
