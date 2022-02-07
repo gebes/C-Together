@@ -14,4 +14,4 @@ Wir wollen dir nicht die Arbeit abnehmen, wir wollen die Arbeit aufteilen
 
 
 ## What do we learn from this?
-Work cleverer, not harder!
+Work smarter, not harder!
